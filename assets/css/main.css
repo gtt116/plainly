@@ -1,16 +1,14 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
-
 html,
 body {
     height: 100%;
 }
 
 body {
-    background-color: #e7e7e7;
-    font-family: 'Roboto', sans-serif;
+    background-color: #FEFEFE;
+    font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', '宋体', Tahoma, Arial, Helvetica, STHeiti;
     font-weight: 400;
     font-size: 14px;
-    color: #555;
+    color: #1D1D1D;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
@@ -18,13 +16,18 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    color: #333;
+    color: #1D1D1D;
 }
 
 h1 {
     font-size: 35px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+h2 {
+  border-bottom: 2px solid #699CCF;
+  padding-bottom: 10px;
 }
 
 /* Typo */
@@ -61,6 +64,7 @@ code,
 .post img {
     display: block;
     margin: auto;
+    max-width: 720px;
 }
 
 .centered {
@@ -80,7 +84,7 @@ a {
 a:hover,
 a:focus {
     color: #0085CC;
-    text-decoration: none;
+    text-decoration: underline;
     outline: 0;
 }
 
@@ -109,7 +113,7 @@ a:after {
 /* Navbar */
 .navbar {
     text-transform: uppercase;
-    margin-bottom: 0px;
+    margin-bottom: 14px;
 }
 
 .navbar-inverse {
@@ -159,7 +163,8 @@ a:after {
 
 /* Footer */
 #footer {
-    height: 60px;
+    background: #eee;
     text-align: center;
-    padding-top: 25px;
+    padding: 30px;
+    margin-top: 14px;
 }
