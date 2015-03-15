@@ -1,11 +1,11 @@
 {{!< default}}
 <main>
     {{#foreach posts}}
-    <article>
+    <article class="thread">
         <header>
             <h1><a href="{{url}}">{{{title}}}</a></h1>
             <h5>
-                <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD/MM/YYYY"}}</time> - <a href="{{url}}#disqus_thread" data-disqus-identifier="{{id}}"></a>
+                <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="YYYY-MM-DD"}}</time> : {{author}}
             </h5>
             {{#foreach tags}}
                     <span class="label label-primary"><a href="{{url}}"><i class="fa fa-tag"></i> {{name}}</a></span>
