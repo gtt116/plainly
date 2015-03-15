@@ -1,8 +1,18 @@
 <div class="navbar-collapse collapse">
   <ul class="nav navbar-nav navbar-right">
+    <li>
+        <a class="fa fa-home" href="http://www.gaott.info/"></a>
+    </li>
+    <li>
+        <a class="fa fa-rss" href="http://www.gaott.info/rss"></a>
+    </li>
+    <li>
+        <a class="fa fa-question" href="http://www.gaott.info/about"></a>
+    </li>
+
     {{#foreach navigation}}
-    <li class="nav-{{slug}} {{#if current}}active{{/if}}" role="presentation">
-      <a href="{{url absolute="true"}}">{{label}}</a>
+    <li class="nav-{{slug}} {{#if current}}active{{/if}}">
+      <a class="fa fa-{{slug}}" href="{{url absolute="true"}}">{{label}}</a>
     </li>
     {{/foreach}}
   </ul>
