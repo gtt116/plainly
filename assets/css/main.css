@@ -83,7 +83,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #0085CC;
+    color: #00C1E2;
     text-decoration: underline;
     outline: 0;
 }
@@ -120,8 +120,8 @@ a:after {
 }
 
 .navbar-inverse {
-    background-color: #34495e;
-    border-color: #34495e;
+    background-color: #337AB7;
+    border-color: #62B0F2;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -129,7 +129,8 @@ a:after {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-    color: #c9c5c6;
+    color: #fff;
+    font-weight:bold;
 }
 
 .navbar-brand {
@@ -158,6 +159,15 @@ a:after {
     height: 100%;
     margin: 0 auto -60px;
     padding: 0 0 60px;
+}
+
+.thread {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 0px 40px 10px;
+  box-shadow: 0px 3px 4px #eee;
+  margin-top: 20px;
+  border-radius: 4px;
 }
 
 /* Footer */
